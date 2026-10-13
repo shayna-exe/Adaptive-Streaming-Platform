@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Data files
+data/experiments/*.json
+data/experiments/*.csv
+data/results/*.json
+data/results/*.csv
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+backend/venv/
+backend/.venv/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.env
