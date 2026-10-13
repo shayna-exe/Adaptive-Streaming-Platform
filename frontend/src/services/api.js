@@ -1,6 +1,5 @@
-const API_BASE = 'http://localhost:8000';
-const WS_URL = 'ws://localhost:8000/ws/metrics';
-
+const API_BASE = 'https://adaptive-streaming-platform.onrender.com';
+const WS_URL = 'wss://adaptive-streaming-platform.onrender.com/ws/metrics';
 export const api = {
   getNetworkStatus: () => fetch(`${API_BASE}/api/network/status`).then(r => r.json()),
   getNetworkHistory: () => fetch(`${API_BASE}/api/network/history`).then(r => r.json()),
